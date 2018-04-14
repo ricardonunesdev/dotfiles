@@ -14,7 +14,7 @@
 	"editor.wordWrap": "on",
 	"editor.wrappingIndent": "indent",
 	"editor.renderLineHighlight": "all",
-	"editor.renderWhitespace": "boundary",
+	"editor.renderWhitespace": "none",
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.suggestOnTriggerCharacters": false,
 	"editor.wordBasedSuggestions": false,
