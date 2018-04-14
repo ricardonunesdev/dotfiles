@@ -1,0 +1,77 @@
+{
+
+	// --- EDITOR --- //
+
+	"editor.fontFamily": "Ubuntu Mono",
+	"editor.fontSize": 18,
+	"editor.lineHeight": 22,
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.autoClosingBrackets": false,
+	"editor.dragAndDrop": false,
+	"editor.wordWrap": "on",
+	"editor.wrappingIndent": "indent",
+	"editor.renderLineHighlight": "all",
+	"editor.renderWhitespace": "boundary",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.suggestOnTriggerCharacters": false,
+	"editor.wordBasedSuggestions": false,
+	"editor.quickSuggestionsDelay": 250,
+	"editor.quickSuggestions": {
+		"other": false,
+		"comments": false,
+		"strings": false
+	},
+	"editor.minimap.enabled": true,
+	"editor.minimap.renderCharacters": false,
+	"editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+
+	// --- HTML --- //
+
+	"html.autoClosingTags": false,
+
+	// --- PYTHON --- //
+
+	"python.pythonPath": "python3",
+	"python.linting.enabled": false,
+
+	// --- FILES --- //
+
+	"files.trimTrailingWhitespace": true,
+	"files.associations": {
+		"*.script": "javascript"
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true,
+		"**/.vscode": false,
+		"**/node_modules": true,
+		"**/typings": false
+	},
+
+	// --- SEARCH --- //
+
+	"search.exclude": {
+		"**/.vscode": true,
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/typings": true
+	},
+
+	// --- TELEMETRY --- //
+
+	"telemetry.enableTelemetry": false,
+	"telemetry.enableCrashReporter": false,
+
+	// --- WORKBENCH --- //
+
+	"workbench.iconTheme": "vs-seti",
+	"workbench.startupEditor": "newUntitledFile",
+
+	// --- ZEN MODE --- //
+
+	"zenMode.centerLayout": false,
+	"zenMode.hideTabs": false
+
+}
