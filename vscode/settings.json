@@ -8,7 +8,7 @@
 	"editor.tabSize": 4,
 	"editor.insertSpaces": false,
 	"editor.useTabStops": false,
-    "editor.renderIndentGuides": true,
+	"editor.renderIndentGuides": true,
 	"editor.detectIndentation": false,
 	"editor.autoClosingBrackets": false,
 	"editor.dragAndDrop": false,
@@ -17,7 +17,7 @@
 	"editor.renderLineHighlight": "all",
 	"editor.renderWhitespace": "none",
 	"editor.multiCursorModifier": "ctrlCmd",
-    "editor.parameterHints": false,
+	"editor.parameterHints": false,
 	"editor.suggestOnTriggerCharacters": false,
 	"editor.wordBasedSuggestions": false,
 	"editor.quickSuggestionsDelay": 250,
@@ -26,8 +26,8 @@
 		"comments": false,
 		"strings": false
 	},
-    "editor.acceptSuggestionOnEnter": "on",
-    "editor.snippetSuggestions": "none",
+	"editor.acceptSuggestionOnEnter": "on",
+	"editor.snippetSuggestions": "none",
 	"editor.minimap.enabled": true,
 	"editor.minimap.renderCharacters": false,
 	"editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
@@ -56,18 +56,18 @@
 		"**/.DS_Store": true,
 		"**/.vscode": false,
 		"**/node_modules": true,
-        "**/bower_components": false,
+		"**/bower_components": false,
 		"**/typings": false
 	},
-    "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "**/node_modules/**": true
-    },
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/node_modules/**": true
+	},
 
 	// --- SEARCH --- //
 
 	"search.exclude": {
-        "**/.git": true,
+		"**/.git": true,
 		"**/.DS_Store": true,
 		"**/.vscode": true,
 		"**/node_modules": true,
