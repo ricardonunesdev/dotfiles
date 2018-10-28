@@ -10,14 +10,13 @@
 	"editor.useTabStops": false,
 	"editor.renderIndentGuides": true,
 	"editor.detectIndentation": false,
-	"editor.autoClosingBrackets": false,
+	"editor.autoClosingBrackets": "never",
 	"editor.dragAndDrop": false,
 	"editor.wordWrap": "on",
 	"editor.wrappingIndent": "indent",
 	"editor.renderLineHighlight": "all",
 	"editor.renderWhitespace": "none",
 	"editor.multiCursorModifier": "ctrlCmd",
-	"editor.parameterHints": false,
 	"editor.suggestOnTriggerCharacters": false,
 	"editor.wordBasedSuggestions": false,
 	"editor.quickSuggestionsDelay": 250,
@@ -35,11 +34,6 @@
 	// --- HTML --- //
 
 	"html.autoClosingTags": false,
-
-	// --- PYTHON --- //
-
-	"python.pythonPath": "python3",
-	"python.linting.enabled": false,
 
 	// --- GIT --- //
 
@@ -83,11 +77,15 @@
 	// --- WORKBENCH --- //
 
 	"workbench.iconTheme": "vs-seti",
-	"workbench.startupEditor": "newUntitledFile",
+	"workbench.startupEditor": "none",
 
 	// --- ZEN MODE --- //
 
 	"zenMode.centerLayout": false,
-	"zenMode.hideTabs": false
+	"zenMode.hideTabs": false,
+
+	// --- UPDATE --- //
+
+	"update.showReleaseNotes": false
 
 }
